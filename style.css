@@ -8,17 +8,30 @@ h1{
     text-align: center;
 }
 #slogan{
-    text-align: center;
+    text-align:center;
 }
 #first{
     float: left;
 }
 #drop{
-    float:right;
+ position: relative;
+ float:right;
+}
+#homedrop{
+    position:relative;
+    
 }
 
+.jumbotron{
+  position:absolute;
+  top:500px;
+  left:150px;
+}
 
-
+.col-lg-10{
+    position:absolute;
+    left:500px;
+}
 
 
 
