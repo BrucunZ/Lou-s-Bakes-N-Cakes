@@ -7,19 +7,53 @@
           <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
         <script type="text/javascript" src="script.js"></script>
     </head>
-<body>
-         <h1>Lou's Cakes N' Bakes</h1> 
-       <p id="slogan">New Jersey Hoboken's Little Slice of Heaven</p>
+<body data-spy="scroll" data-target=".navbar">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+ <div class="row">
+          <div class="col-md-1">
+           <div class="dropdown">
+              
     
-    <div class="jumbotron">
-        <h1>A little About Us</h1>
-        <p>Hello all, my name is Lou. I've been baking for as long as I can 
-        remember and I have enjoyed every 
-        second of it. I love the smiles on the faces of 
-        the people who taste my sweets and goods. Thank you all for buying
-        and enjoying my food. See you soon!</p>
+        <button id="hHome" class="btn btn-lg dropdown-toggle" data-toggle="dropdown">=</button>
+        
+        <ul class="dropdown-menu">
+            <li><a href="Home.html" class="dropdown-item">Home</a></li>
+            <li><a href="contact.html" class="dropdown-item">Contact</a></li>
+            <li><a href="Order.html#" class="dropdown-item">Order</a></li>
+            <li><a href="Map.html" class="dropdown-item">Location</a></li>
+            <li><a href="about.html" class="dropdown-item">About</a></li>
+            <li><a href="orderG.html" class="dropdown-item">Gallery</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a href="signup.html" class="dropdown-item">Join</a></li>
+            <li><a href="signin.html" class="dropdown-item">Sign in</a></li>
+        </ul>
+    
     </div>
-    
+     </div>
+     <div class="col-md-10">
+         <h1>Lou's Cakes N' Bakes</h1>
+        <p id="slogan">Hoboken New Jersey's Little slice of Heaven</p>
+     </div>
+         <div class="col-lg-1">
+
+         </div>
+     </div>
+
+ </div>
+ </nav>
+       
+    <div id="about" class="jumbotron">
+        <h1>A little About Us</h1>
+        <p>Lou’s Cakes and Bakes . We make high quality homemade 
+        cakes and desserts to order without the fuss of and high 
+        cost. We love to bake and want to share with you our passion. 
+        Whether you’re looking for to celebrate a birthday or just 
+        feed your sweet tooth, we have the cake for you. We will
+        also be starting baking classes in the Fall! </p>
+    </div>
+    <div class="jumbotron" id="contact">
+        <p>Call us at:917-566-7564   Email us at:pwjabonski@gmail.com</p>
+           </div>
     
     
     

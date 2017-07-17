@@ -1,0 +1,68 @@
+body{
+    padding:200;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:white;
+}
+#slogan{
+    text-align:center;
+    color:white;
+}
+h2{
+   font-family: "Times New Roman", Times, serif; 
+    text-align: center;
+    color: black;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+  
+    color: black;
+}
+#frosting{
+width: 20px;
+height:20px;
+}
+
+#garnish{
+width: 20px;
+height:20px;
+}
+#cherries{
+width: 20px;
+height:20px;
+}
+#strawberry{
+width: 20px;
+height:20px;
+}
+#hiwis{
+width: 20px;
+height:20px;
+}
+#fruit{
+width: 20px;
+height:20px;
+}
+#hersh{
+width: 20px;
+height:20px;
+}
+#cookies{
+width: 20px;
+height:20px;
+}
+#shipad{
+    width: 10;
+}
+#myaddress{
+ width: 20px;
+height:20px;
+}
+#order{
+position:absolute;
+top: 1100px;
+left:700px;
+}

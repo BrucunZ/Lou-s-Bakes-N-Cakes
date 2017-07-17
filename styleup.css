@@ -1,0 +1,22 @@
+body{
+    padding:100;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:white;
+}
+#slogan{
+    text-align:center;
+    color:white;
+}
+#fast{
+    position:absolute;
+    top:200px;
+    
+}
+#create{
+position:absolute;
+top: 1100px;
+left:700px;
+}

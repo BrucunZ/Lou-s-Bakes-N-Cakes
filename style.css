@@ -1,14 +1,25 @@
+#hHome{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/tupix-1/30/list-512.png");
+}
+#arg{
+    position:absolute;
+    left:250px;
+}
+
 #sign{
     float: right;
     border: solid;
+    
 }
 
 h1{
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    color:white;
 }
 #slogan{
     text-align:center;
+    color:white;
 }
 #first{
     float: left;
@@ -22,20 +33,132 @@ h1{
     
 }
 
-.jumbotron{
-  position:absolute;
-  top:500px;
-  left:150px;
+#about{
+    position:absolute;
+    top:200px;
+    left:1px;
+    color:white;
+    background-color:black;
 }
 
-.col-lg-10{
+#arg{
     position:absolute;
+    left:240px;
+}
+#yum2{
+    position:absolute;
+    left:405px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      height:30%;
+}
+.homeBrowse{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:200px;
+}
+
+#cake{
+    position:absolute;
+    top:240px;
+    font-family:bold;
+    font-size:20px;
+}
+#contact{
+ position:absolute;
+ top:650px;
+ left:0px;
+ width:750px;
+ height:30px;
+}
+ #special{
+     
+ }
+
+#browse{
+    position:absolute;
+    top:140px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+#mang{
+    position:absolute;
+    left:130px;
+    
+}
+#crunch{
+    position:absolute;
+    left:505px;
+}
+#crunchy{
+    position:absolute;
+    left:670px;
+}
+#crunchy{
+    position:absolute;
+    left:670px;
+}
+#marshmallow{
+    position:absolute;
+    left:770px;
+}
+#crepe1{
+    position:absolute;
+    left:925px;
+}
+#crepe2{
+    position:absolute;
+    left:1030px;
+}
+#seemore{
+    position:absolute;
+    top:320px;
+    left:20px;
+}
+#now{
+    font-size:15px;
+    text-align:center;
+}
+#Hcreate{
+    position:absolute;
+    left:105px;
+}
+#Hsignup{
+    position:absolute;
+    top:450px;
+    left:800px;
+}
+
+nav{
+    height:130px;
+}
+#fast{
+    position:absolute;
+    top:200px;
+    left:30px;
+    width:1200px;
+    height:600px;
+    color:white;
+    background-color:black;
+}
+#Cinput{
+    height:300px;
+}
+#mankey{
+    position:absolute;
+    top:250px;
     left:500px;
 }
-
-
-
-
+#lolo{
+    position:absolute;
+    top:190px;
+    left:500px;
+     font-family: 'Dancing Script', cursive;
+}
 
 
 
@@ -109,3 +232,11 @@ body { /* just for this demo. */
 .btn-arrow-left:after { /* hide arrow tails background */
     background-color: white;
 }
+
+
+
+
+#maptext{
+    text-align: center;
+}
+
