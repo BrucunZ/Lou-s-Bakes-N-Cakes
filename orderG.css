@@ -1,41 +1,138 @@
+#otherorder{
+    position:absolute;
+    top:170px;
+    left:900px;
+}
+#ikou{
+    position:absolute;
+    left:140px;
+}
 .img-circle{
     height:100px;
     width:100px; 
+   
 }
-.gbrowse{
-    height:100px;
-    width:100px; 
-    position:absolute;
-    top:200px;
-}    
+
 
 #first{
     position:absolute;
     left:10px;
+    top:200px;
 }
 #second{
     position:absolute;
     left:130px;
+    top:200px;
 }
 #third{
     position:absolute;
     left:250px;
+    top:200px;
 }
 #fourth{
     position:absolute;
     left:370px;
+    top:200px;
 }
 #fith{
     position:absolute;
     left:490px;
+    top:200px;
 }
 #sixth{
     position:absolute;
     left:610px;
+    top:200px;
 }
 #seventh{
     position:absolute;
     left:730px;
+    top:200px;
+}
+#crepes{
+    position:absolute;
+    top:400px;
+    left:10px;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
+}
+#eigth{
+    position:absolute;
+    left:10px;
+    top:430px;
+}
+#ninth{
+    position:absolute;
+    left:130px;
+    top:430px;
+}
+#tenth{
+    position:absolute;
+    left:250px;
+    top:430px;
+}
+#eleventh{
+     position:absolute;
+    left:370px;
+    top:430px;
+}
+#twelthe{
+    position:absolute;
+    left:490px;
+    top:430px;
+}
+#thirteenth{
+    position:absolute;
+    left:610px;
+    top:430px;
+}
+#fourteenth{
+    position:absolute;
+    left:730px;
+    top:430px;
+}
+#cookies{
+   position:absolute;
+    top:620px;
+    left:10px;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;  
+}
+
+#fifteenth{
+    position:absolute;
+    left:10px;
+    top:650px;
+}
+#sixteenth{
+    position:absolute;
+    left:130px;
+    top:650px;
+}
+#seventeenth{
+    position:absolute;
+    left:250px;
+    top:650px;
+}
+#eighteenth{
+    position:absolute;
+    left:370px;
+    top:650px;
+}
+#ninteenth{
+    position:absolute;
+    left:490px;
+    top:650px;
+}
+#twentith{
+    position:absolute;
+    left:610px;
+    top:650px;
+}
+#twenty-first{
+    position:absolute;
+    left:730px;
+    top:650px;
 }
 h1{
     font-family: 'Dancing Script', cursive;
@@ -52,4 +149,8 @@ h1{
     left:10px;
     font-size:25px;
     font-family: 'Dancing Script', cursive;
+}
+#contact{
+    position: absolute;
+    top:900px;
 }

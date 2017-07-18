@@ -45,5 +45,8 @@ function carousel(){
 carousel();
 $("#nandato").click(function(){
     $("#fast").hide();
-    $("body").append("<p>"+"Thanks! You're support and feedback helps us alot!"+"</p>")
+    $("body").append("<p>"+"Thanks! You're support and feedback helps us alot!"+"</p>");
+});
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus();
 });
