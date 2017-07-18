@@ -1,0 +1,55 @@
+.img-circle{
+    height:100px;
+    width:100px; 
+}
+.gbrowse{
+    height:100px;
+    width:100px; 
+    position:absolute;
+    top:200px;
+}    
+
+#first{
+    position:absolute;
+    left:10px;
+}
+#second{
+    position:absolute;
+    left:130px;
+}
+#third{
+    position:absolute;
+    left:250px;
+}
+#fourth{
+    position:absolute;
+    left:370px;
+}
+#fith{
+    position:absolute;
+    left:490px;
+}
+#sixth{
+    position:absolute;
+    left:610px;
+}
+#seventh{
+    position:absolute;
+    left:730px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:white;
+}
+#slogan{
+    text-align:center;
+    color:white;
+}
+#cakes{
+    position:absolute;
+    top:160px;
+    left:10px;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
+}

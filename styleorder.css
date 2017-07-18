@@ -1,3 +1,7 @@
+//.row{
+    border: solid;
+}
+
 body{
     padding:200;
 }
@@ -55,7 +59,7 @@ width: 20px;
 height:20px;
 }
 #shipad{
-    width: 10;
+    width: 700;
 }
 #myaddress{
  width: 20px;
