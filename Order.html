@@ -224,11 +224,11 @@
             <br>
 
             <div class="form-group row">
-                <label for="example-address-input" class="col-2 col-form-label"> Shipping Address:</label>
+                <label for="example-address-input" class="col-2 col-form-label"> Pick-up Information:</label>
                 <div class="row">
                     <div class="checkbox">
                         <div class="col-xs-2">
-                            <label for="example-text-input" class="col-2 col-form-label">Use my regular Address</label> </div>
+                            <label for="example-text-input" class="col-2 col-form-label"> I am picking it up myself</label> </div>
                         <div class="col-xs-2">
                             <input class="form-control" type="checkbox" id="myaddress">
                         </div>
@@ -239,8 +239,19 @@
                 </div>
                 <br>
 
+                <div class="row">
+                    
+                    <div class="col-xs-2">
+                        <label for="example-address-input" class="col-2 col-form-label"> Pick-up Time:</label>
+                    </div>
+                    <div class="col-xs-1">
+                        <input class="form-control" type="time" id="time">
+                    </div>
+                </div>
+                <br>
+
                 <div class="col-4">
-                    <label for="example-address-input" class="col-2 col-form-label"> Ship to this Address</label>
+                    <label for="example-address-input" class="col-2 col-form-label"> This person will pick-up:</label>
                     <input class="form-control" type="adress" id="shipad">
                 </div>
             </div>
@@ -248,26 +259,7 @@
             <br>
             <br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <button type="submit" class="btn btn-primary" id="order">  Place Order </button>
+            <a href="comfirmP.html" type="submit" class="btn btn-primary" id="order">  Place Order </a>
 
         </form>
     </div>

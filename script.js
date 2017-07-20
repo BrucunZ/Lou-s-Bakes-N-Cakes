@@ -1,4 +1,4 @@
-/*global google*/ 
+//*global google*/ 
 /*global $*/
 /*global href*/
 
@@ -13,40 +13,29 @@ function initMap() {
           map: map
         });
       }
-    
+      
+    $(document).ready(function(){
 function carousel(){
-  $(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel();
-    
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
-    });
-    
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-});
+ var carousel = $(".carousel"),
+    currdeg  = 0;
+
+$(".next").on("click", { d: "n" }, rotate);
+$(".prev").on("click", { d: "p" }, rotate);
+
+function rotate(e){
+  if(e.data.d=="n"){
+    currdeg = currdeg - 60;
+  }
+  if(e.data.d=="p"){
+    currdeg = currdeg + 60;
+  }
+  carousel.css({
+    "-webkit-transform": "rotateY("+currdeg+"deg)",
+    "-moz-transform": "rotateY("+currdeg+"deg)",
+    "-o-transform": "rotateY("+currdeg+"deg)",
+    "transform": "rotateY("+currdeg+"deg)"
+  });
+}
 }
 carousel();
-$("#nandato").click(function(){
-    $("#fast").hide();
-    $("body").append("<p>"+"Thanks! You're support and feedback helps us alot!"+"</p>");
-});
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus();
 });

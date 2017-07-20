@@ -59,7 +59,7 @@ width: 20px;
 height:20px;
 }
 #shipad{
-    width: 700;
+    width: 500;
 }
 #myaddress{
  width: 20px;
@@ -67,6 +67,11 @@ height:20px;
 }
 #order{
 position:absolute;
-top: 1100px;
-left:700px;
+top: 1150px;
+left:600px;
 }
+#time{
+    width: 120px;
+}
+
+

@@ -1,5 +1,6 @@
 body{
-padding:150px;
+padding-top:150px;
+padding-left: 100px;
 }
 h1{
     font-family: 'Dancing Script', cursive;
@@ -12,8 +13,9 @@ h1{
 }
 h2{
     color:white;
+    text-align: center;
 }
 nav{
     height:150px;
 }
-#first-name{}
+

@@ -1,7 +1,7 @@
 
 #arg{
-    position:absolute;
-    left:250px;
+    position:relative;
+    left:200px;
 }
 
 #sign{
@@ -41,19 +41,92 @@ h1{
 
 #arg{
     position:absolute;
-    left:240px;
+    left:270px;
 }
 #yum2{
     position:absolute;
-    left:405px;
+    left:440px;
 }
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-      height:30%;
+body {
+  padding: 70px 0;
+  font: 15px/20px Arial, sans-serif;
 }
-.homeBrowse{
+
+.container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: #ed1c24;
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+  background: #0072bc;
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+  background: #39b54a;
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+  background: #f26522;
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+  background: #630460;
+} 
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+  background: #8c6239;
+}
+
+.next, .prev {
+  color: #444;
+  position: absolute;
+  top: 100px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #000; }
+.next:active, .prev:active {
+  top: 104px;
+  box-shadow: 0 1px 0 #999;
+}
+.next { right: 5em; }
+.prev { left: 5em; }
+.img-circle{
     width:100px;
     height:100px;
     position:absolute;
@@ -69,51 +142,68 @@ h1{
 #contact{
  position:absolute;
  top:650px;
- left:0px;
+ left:15px;
  width:750px;
- height:30px;
+ height:80px;
 }
  
-
+#pic1{
+    background:url("Gallery/yup.jpg");
+}
+#pic2{
+    background:url("Gallery/Wedding.jpg");
+}
+#pic3{
+    background:url("Gallery/arg.jpg");
+}
+#pic4{
+    background:url("Gallery/nanda.jpg");
+}
+#pic5{
+    background:url("Gallery/dazzle.jpg");
+}
+#pic6{
+    background:url("Gallery/stack.jpg");
+}
 #browse{
     position:absolute;
-    top:140px;
+    left:20px;
+    top:530px;
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
 }
 #mang{
     position:absolute;
-    left:130px;
+    left:150px;
     
 }
 #crunch{
     position:absolute;
-    left:505px;
+    left:550px;
 }
 #crunchy{
     position:absolute;
-    left:670px;
+    left:710px;
 }
-#crunchy{
-    position:absolute;
-    left:670px;
-}
+
 #marshmallow{
     position:absolute;
-    left:770px;
+    left:810px;
 }
 #crepe1{
     position:absolute;
-    left:925px;
+    left:980px;
+    top:200px;
 }
 #crepe2{
     position:absolute;
-    left:1030px;
+    left:1090px;
+     top:200px;
 }
 #seemore{
     position:absolute;
     top:320px;
-    left:20px;
+    left:40px;
 }
 #now{
     font-size:15px;
@@ -121,11 +211,11 @@ h1{
 }
 #Hcreate{
     position:absolute;
-    left:105px;
+    left:167px;
 }
 #Hsignup{
     position:absolute;
-    top:450px;
+    top:520px;
     left:800px;
 }
 
@@ -142,7 +232,7 @@ nav{
     background-color:black;
 }
 #Cinput{
-    height:300px;
+    width:200px;
 }
 #mankey{
     position:absolute;
@@ -155,10 +245,62 @@ nav{
     left:500px;
      font-family: 'Dancing Script', cursive;
 }
-body{
-    padding:20px;
-}
 
+h2{
+     font-family: 'Dancing Script', cursive;
+    text-align: center;
+    position:absolute;
+    top:5px
+ 
+}
+#Phome{
+    position:absolute;
+    top:180px;
+    left:120px;
+  
+   
+}
+#Pgal{
+    position:absolute;
+    top:180px;
+    left:210px;
+}
+#Pord{
+    position:absolute;
+    top:180px;
+    left:310px;
+}
+#Pro{
+    position:absolute;
+    top:180px;
+    left:10px;
+    
+    
+}
+#confirm{
+    position:absolute;
+    top:200px;
+    left:450px;
+    height:250px;
+    width:470px;
+    color:white;
+    background-color:black;
+}
+#thanks{
+    position:absolute;
+    top:300px;
+    left:450px;
+    height:250px;
+    width:400px;
+    color:white;
+    background-color:black;
+}
+#c2home{
+    position:absolute;
+    top:170px;
+    left:130px;
+    
+}
 
 
 

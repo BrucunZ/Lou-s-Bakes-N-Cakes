@@ -1,72 +1,75 @@
 <html>
 
 <head>
-    <title>Lou's Cakes and Bakes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-   <link rel="icon" href="http://static.boredpanda.com/blog/wp-content/uploads/2016/05/cat-eats-cake-3.jpg">
-    <link rel="stylesheet" href="stylemap.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    
-     <style>
-       #map {
-        height: 400px;
-        width: 1000px;
-       }
-    </style>
+ <title>Lou's Cakes and Bakes</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+ <link rel="icon" href="http://static.boredpanda.com/blog/wp-content/uploads/2016/05/cat-eats-cake-3.jpg">
+ <link rel="stylesheet" href="stylemap.css" type="text/css" />
+ <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="script.js"></script>
+
+ <style>
+  #map {
+   height: 400px;
+   width: 1000px;
+  }
+ </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-     <nav class="navbar navbar-inverse navbar-fixed-top">
- <div class="row">
-          <div class="col-md-1">
-           <div class="dropdown">
-              
-    
-        <button id="hHome" class="btn btn-lg dropdown-toggle" data-toggle="dropdown">=</button>
-        
-        <ul class="dropdown-menu">
-            <li><a href="Home.html" class="dropdown-item">Home</a></li>
-            <li><a href="contact.html" class="dropdown-item">Contact</a></li>
-            <li><a href="Order.html#" class="dropdown-item">Order</a></li>
-            <li><a href="Map.html" class="dropdown-item">Location</a></li>
-            <li><a href="about.html" class="dropdown-item">About</a></li>
-            <li><a href="orderG.html" class="dropdown-item">Gallery</a></li>
-            <div class="dropdown-divider"></div>
-            <li><a href="signup.html" class="dropdown-item">Join</a></li>
-            <li><a href="signin.html" class="dropdown-item">Sign in</a></li>
-        </ul>
-    
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="row">
+   <div class="col-md-1">
+    <div class="dropdown">
+
+
+     <button id="hHome" class="btn btn-lg dropdown-toggle" data-toggle="dropdown">=</button>
+
+     <ul class="dropdown-menu">
+      <li><a href="Home.html" class="dropdown-item">Home</a></li>
+      <li><a href="contact.html" class="dropdown-item">Contact</a></li>
+      <li><a href="Order.html#" class="dropdown-item">Order</a></li>
+      <li><a href="Map.html" class="dropdown-item">Location</a></li>
+      <li><a href="about.html" class="dropdown-item">About</a></li>
+      <li><a href="orderG.html" class="dropdown-item">Gallery</a></li>
+      <div class="dropdown-divider"></div>
+      <li><a href="signup.html" class="dropdown-item">Join</a></li>
+      <li><a href="signin.html" class="dropdown-item">Sign in</a></li>
+     </ul>
+
     </div>
-     </div>
-     <div class="col-md-10">
-         <h1>Lou's Cakes N' Bakes</h1>
-        <p id="slogan">Hoboken New Jersey's Little slice of Heaven</p>
-     </div>
-       <div class="row">
-      <div class="col-lg-12">
-         <h2>Our Location</h2> 
-      </div>
- </div>
+   </div>
+   <div class="row">
+    <div class="col-md-10">
+     <h1>Lou's Cakes N' Bakes</h1>
+     <p id="slogan">Hoboken New Jersey's Little slice of Heaven</p>
+    </div>
+   </div>
+
+   <h2>Our Location</h2>
+
+  </div>
  </nav>
 
-   
-  </head>
- 
-    <div id="map"></div>
-    
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkf3VDvUsynaIoIECLBezslMMYFN4cEOQ&callback=initMap">
-    </script>
-    <script src"script.js"></script>
-    
-     <div class="jumbotron" id="contact">
-        <p>Call us at:917-566-7564   Email us at:pwjabonski@gmail.com</p>
-           </div>
-           <!--DO NOT PASS THIS LINE-->
-           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+
+
+ </head>
+ <h3>Zoom-in to get a visual representation</h3>
+
+
+ <div id="map"></div>
+
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkf3VDvUsynaIoIECLBezslMMYFN4cEOQ&callback=initMap">
+ </script>
+ <script src "script.js"></script>
+
+ <div class="jumbotron" id="contact">
+  <p>Call us at:917-566-7564 Email us at:pwjabonski@gmail.com</p>
+ </div>
+ <!--DO NOT PASS THIS LINE-->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 
 
 

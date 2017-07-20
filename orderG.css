@@ -99,7 +99,7 @@
     font-family: 'Dancing Script', cursive;  
 }
 
-#fifteenth{
+#fithteenth{
     position:absolute;
     left:10px;
     top:650px;
@@ -153,4 +153,8 @@ h1{
 #contact{
     position: absolute;
     top:900px;
+}
+#pic1{
+    width: 20px;
+height:20px;
 }
