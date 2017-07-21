@@ -108,7 +108,8 @@ body {
 }
 
 .next, .prev {
-  color: #444;
+  color: white;
+  background-color:black;
   position: absolute;
   top: 100px;
   padding: 1em 2em;
@@ -144,26 +145,40 @@ body {
  top:650px;
  left:15px;
  width:750px;
- height:80px;
+ height:120px;
+ color:white;
+ background-color:black;
 }
  
 #pic1{
     background:url("Gallery/yup.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 #pic2{
     background:url("Gallery/Wedding.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
 }
 #pic3{
     background:url("Gallery/arg.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
 }
 #pic4{
     background:url("Gallery/nanda.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
 }
 #pic5{
     background:url("Gallery/dazzle.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
 }
 #pic6{
     background:url("Gallery/stack.jpg");
+     background-repeat:no-repeat;
+    background-size:cover;
 }
 #browse{
     position:absolute;
@@ -215,8 +230,10 @@ body {
 }
 #Hsignup{
     position:absolute;
-    top:520px;
+    top:540px;
     left:800px;
+    color:white;
+    background-color:black;
 }
 
 nav{

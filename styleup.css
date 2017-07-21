@@ -32,4 +32,5 @@ h2 {
 
 .container.mycontainer {
     max-width: 700px;
+    margin-top: 80px;
 }

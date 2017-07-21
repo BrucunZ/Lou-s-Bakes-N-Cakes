@@ -1,0 +1,35 @@
+#thanks{
+    position:absolute;
+    top:300px;
+    left:450px;
+    height:250px;
+    width:400px;
+    color:white;
+    background-color:black;
+     font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+#c2home{
+    position:absolute;
+    top:170px;
+    left:130px;
+    
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:white;
+}
+#slogan{
+    text-align:center;
+    color:white;
+}
+#contact{
+ position:absolute;
+ top:650px;
+ left:15px;
+ width:750px;
+ height:120px;
+ color:white;
+ background-color:black;
+}

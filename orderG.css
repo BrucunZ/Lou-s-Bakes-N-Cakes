@@ -2,6 +2,8 @@
     position:absolute;
     top:170px;
     left:900px;
+    color:white;
+    background-color:black;
 }
 #ikou{
     position:absolute;
@@ -153,6 +155,9 @@ h1{
 #contact{
     position: absolute;
     top:900px;
+    left:15px;
+    color:white;
+    background-color:black;
 }
 #pic1{
     width: 20px;
